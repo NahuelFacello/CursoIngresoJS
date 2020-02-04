@@ -2,6 +2,13 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar()
 {	
-	
+	var nombre;
+	var edad;
+
+	nombre=document.getElementById('elNombre').value;
+	edad=document.getElementById('laEdad').value;
+
+	alert("Usted se llama "+nombre+" y tiene "+edad+" años.");
 }
 
+//Recorda ser ordenado para poder leer mas claro (1. Variables 2. Definiciones 3. Instrucciones)
