@@ -19,7 +19,4 @@ function mostrarAumento()
 		alert("El nuevo precio con el descuento aplicado es $"+resultado);
 
 		document.getElementById('resultado').value=resultado;
-
-
-
 }
