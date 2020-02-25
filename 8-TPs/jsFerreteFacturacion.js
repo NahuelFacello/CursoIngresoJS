@@ -16,15 +16,13 @@ function Sumar ()
 	precioDos=document.getElementById('PrecioDos').value;
 	precioDos=parseInt(precioDos);
 	precioTres=document.getElementById('PrecioTres').value;
-	precioTres=parseInt(precioTres);	
-
+	precioTres=parseInt(precioTres);
+	
 	suma=precioUno+precioDos+precioTres;
 
 	console.log(suma);
 
 	alert("La suma de los precios es "+suma);
-
-
 }
 function Promedio () 
 {
